@@ -1,0 +1,5 @@
+Django
+django-appconf
+django-compressor
+django-libsass
+libsass

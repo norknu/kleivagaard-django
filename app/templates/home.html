@@ -1,0 +1,55 @@
+{% extends 'main.html' %}
+{% block content %}
+    <div class="intro-section">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Kleiva Gård</h1>
+                <button class="btn btn-primary">Les mer</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <div class="col-md-offset-1">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                Meny
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="news-section">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Nyheitar</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    {% for article in articles %}
+                        <div class="col-sm-2 col-md-8">
+                            <div class="thumbnail">
+                                <img src="http://spi1uk.itvnet.lv/upload/articles/40/40656/images/Smiekligaka-bilde-ever-1.jpeg" alt="image">
+                                <div class="caption">
+                                    <h3>{{ article.title }}</h3>
+                                    <p>{{ article.short_description }}</p>
+                                    <a href="#" class="btn btn-primary" role="button">Les mer</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
