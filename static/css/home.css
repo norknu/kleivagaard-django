@@ -10,7 +10,6 @@
 }
 
 .news-section {
-  color: blue;
 
 }
 
@@ -26,11 +25,13 @@
 
 }
 
-h1.mainheader{
+.mainheader{
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
   color: black;
 
 }
+
+html{background: green}
 
 
