@@ -31,13 +31,14 @@
   color: black;
   font-weight: bold;
   font-size: 60px;
+}
 
-  h2{
-    font-style: italic;
-    font-family: "Times New Roman", Times, serif;
-    color: black;
-    font-size: 30px; 
-  }
+.h2{
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 30px; 
 }
 
 
