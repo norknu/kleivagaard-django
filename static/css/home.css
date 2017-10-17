@@ -1,15 +1,34 @@
 .intro-section {
-    padding: 100px 0;
-    background: lightcoral;
+    padding: 50px 0;
+    height: 85vh;
     color: white;
+    background: url(https://images.finncdn.no/dynamic/1280w/2017/6/vertical-2/07/2/971/806/12_2092668868.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .news-section {
 
 }
 
+.media {
+	
+}
+
 .dropdown{
 
+}
+
+.list-group{
+
+}
+
+.mainheader{
+	font-size: 60px;
+  font-style: italic;
+  color: black;
 }
 
 

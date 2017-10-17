@@ -2,14 +2,15 @@
 {% block content %}
     <div class="intro-section">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h1>Kleiva Gård</h1>
-                <button class="btn btn-primary">Les mer</button>
+            <div class="col-md-9 col-md-offset-1">
+                <h1 class="mainheader">Kleiva Gård</h1>
+                <h2>- Der ingen skulle tru at nokon kunne bu</h2>
+                <!--<button class="btn btn-primary">Les mer</button>-->
             </div>
         </div>
     </div>
 
-    <div class="dropdown">
+    <!--<div class="dropdown">
         <div class="col-md-offset-1">
             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
@@ -24,14 +25,26 @@
                 <li><a href="#">Separated link</a></li>
             </ul>
         </div>
+    </div>-->
+
+    <div class="list-group">
+        <div class="row">
+            <div class="col-xs-4 col-sm-2">
+                <a href="#" class="list-group-item disabled"> Meny</a>
+                <a href="#" class="list-group-item">Om gården</a>
+                <a href="#" class="list-group-item">Hestene</a>
+                <a href="#" class="list-group-item">Rideleir</a>
+                <a href="#" class="list-group-item">Kontakt oss</a>
+            </div>
+        <div>
     </div>
 
     <div class="news-section">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Nyheitar</h1>
+                        <h1>Nyheter</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -47,6 +60,23 @@
                             </div>
                         </div>
                     {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="col-md-4">
+                        <a href="#">
+                        <img class="media-object" src="http://spi1uk.itvnet.lv/upload/articles/40/40656/images/Smiekligaka-bilde-ever-1.jpeg" alt="image">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Middle aligned media</h4>
+                    </div>
                 </div>
             </div>
         </div>
