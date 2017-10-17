@@ -1,6 +1,6 @@
 .intro-section {
     padding: 50px 0;
-    height: 85vh;
+    height: 95vh;
     color: white;
     background: url(https://images.finncdn.no/dynamic/1280w/2017/6/vertical-2/07/2/971/806/12_2092668868.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -26,9 +26,7 @@
 }
 
 .mainheader{
-	font-size: 60px;
-  font-style: italic;
-  color: black;
+
 }
 
 
